@@ -19,6 +19,8 @@ import csv
 
 ### CANDIDATE STUFF ###
 
+## TEXT INSERTED FOR TESTING GITHUB
+
 url = "https://api.open.fec.gov/v1/candidate/P80001571?api_key=U8BzrfhKCYJg0conOwlfwvQtcIor8FKmQhGii14o"
 DTresponse = requests.get(url, allow_redirects=True)
 data = DTresponse.json()
